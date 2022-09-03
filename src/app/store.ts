@@ -1,9 +1,17 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import roleteReducer from "../features/slices/RoleteSlice/roleteSlice";
+import fixR50Reducer from "../features/slices/FIxR50Slice/FixR50Slice";
+import fixStandardReducer from "../features/slices/FixStandardSlice/FixStandardSlice";
+import kupacReducer from "../features/slices/KupacSlice/KupacSlice";
+import adminReducer from "../features/slices/Admin/adminSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    rolete: roleteReducer,
+    fixR50: fixR50Reducer,
+    fixStandard: fixStandardReducer,
+    kupac: kupacReducer,
+    admin: adminReducer,
   },
 });
 

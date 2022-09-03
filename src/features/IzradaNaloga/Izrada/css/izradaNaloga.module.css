@@ -1,0 +1,18 @@
+.prikazNalogaGrid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.left {
+  max-width: 570px;
+  border-right: 3px solid #8892b0;
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+.right {
+  margin-left: 570px;
+}
+/*# sourceMappingURL=izradaNaloga.module.css.map */

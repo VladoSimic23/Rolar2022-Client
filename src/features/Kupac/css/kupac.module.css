@@ -1,0 +1,15 @@
+.kupacDiv {
+  text-align: center;
+  padding: 15px 30px;
+  border-bottom: 3px solid #8892b0;
+}
+
+.kupacFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=kupac.module.css.map */

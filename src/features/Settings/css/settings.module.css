@@ -1,0 +1,46 @@
+.sidebarParent {
+  background: rgba(228, 225, 225, 0.904);
+  right: 0;
+  top: 0;
+  padding: 60px 30px;
+  position: absolute;
+}
+
+.sidebarSettings {
+  position: fixed;
+  top: 15px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  right: 15px;
+}
+
+.sidebarUl li {
+  margin-bottom: 5px;
+}
+
+.sidebarUl li a {
+  font-size: 18px;
+  padding: 8px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+.sidebarUl li a svg {
+  margin-right: 10px;
+}
+
+.sidebarUl li:hover {
+  background: #4050ad;
+  color: white;
+}
+
+.sidebarUl li a:hover {
+  color: white;
+}
+/*# sourceMappingURL=settings.module.css.map */

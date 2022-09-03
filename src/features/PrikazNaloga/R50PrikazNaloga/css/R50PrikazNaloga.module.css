@@ -1,0 +1,31 @@
+.prikazKomariceR50 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.prikazKomariceR50 h4 {
+  margin: 0;
+  padding: 30px;
+}
+
+.komariceR50Grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.komariceR50Child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  max-height: 40px;
+}
+/*# sourceMappingURL=R50PrikazNaloga.module.css.map */

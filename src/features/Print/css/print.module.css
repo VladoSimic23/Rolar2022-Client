@@ -1,0 +1,37 @@
+.print {
+  padding: 30px 15px;
+}
+
+.kupacFlexPrint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px;
+  border-bottom: 1px solid black;
+}
+
+.kupacParent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.kupacParent h5 {
+  margin: 10px 0;
+  text-align: right;
+}
+
+.flexM2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexM2 h4 {
+  padding: 30px;
+  margin: 0;
+}
+/*# sourceMappingURL=print.module.css.map */

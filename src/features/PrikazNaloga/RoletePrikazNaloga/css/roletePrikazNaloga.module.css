@@ -1,0 +1,33 @@
+.roleteGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.roleteGridChild {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  max-height: 40px;
+}
+
+.prikazRolete {
+  background: #fffdf1;
+  padding: 30px;
+  color: white;
+  background: #7788b0;
+  text-align: center;
+}
+
+.prikazRolete h4 {
+  margin: 0 !important;
+  padding: 30px 0;
+}
+/*# sourceMappingURL=roletePrikazNaloga.module.css.map */

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+}
+$darkBlue : #0a192f;
+$grey: #bbc0cd;
+$green: #64ffda;
+body {
+  font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: $darkBlue;
+    color: $grey;
+}
+ul {
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 15px 0;
+}
+
+select {
+    cursor: pointer;
+    border: 1px solid #4d4b97;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+//   select option {
+//     background: none !important;
+//   }
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  textarea {
+    margin: 10px 0;
+    padding: 5px;
+    border: 2px solid rgb(179, 179, 224);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="radio"] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .btnRed {
+    background: rgb(212, 64, 44);
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    transition: all 0.2s;
+    border-radius: 5px;
+    a {  display: block;
+      width: 100%;}
+  &:hover {
+  
+    background: none;
+    color: $grey;
+  }
+  }
+
+  .btnPrimary {
+    background: $grey;
+    color: $darkBlue;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 1px solid $grey;
+    transition: all 0.1s ease-in-out;
+    border-radius: 8px;
+        a {  display: block;
+        width: 100%;}
+    &:hover {
+    
+      background: none;
+      color: $grey;
+    }
+  }
+  .pogresanUnos {
+    background: rgb(226, 83, 83);
+    color: white;
+  }
+  .success {
+    background: green;
+    color: white;
+    display: block;
+    padding: 10px;
+  }
+  .error {
+    background: rgb(200, 18, 18);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    max-width: 400px;
+  }
+
+  .popUpParent {
+    position: absolute;
+    background: rgba(224, 224, 224, 0.52);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  .popUp {
+    background: rgb(99, 45, 160);
+    position: absolute;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  }
+  .popUpBtns {
+    display: flex;
+    justify-content: space-around;
+  }
+  .popUpBtns button {
+    padding: 5px 30px;
+    cursor: pointer;
+    border: none;
+  }
+  

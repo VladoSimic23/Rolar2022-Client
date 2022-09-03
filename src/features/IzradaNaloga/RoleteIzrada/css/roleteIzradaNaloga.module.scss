@@ -1,0 +1,83 @@
+.odabirUređivanje {
+  max-width: 530px;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  // padding: 80px 30px;
+}
+
+.odabirUređivanje2 {
+    text-align: center;
+    padding: 40px 30px;
+  animation: fadeLeft 0.5s;
+  }
+@keyframes fadeLeft {
+  from {
+    margin-left: -150px;
+    opacity: 0;
+  } to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+  .flexInput {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .flexInput2 {
+    max-width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .flexInput3 {
+    max-width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .flexForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+  }
+  .rolWrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    margin-top: 40px;
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+  .inptStyle {
+    max-width: 25px;
+  }
+  .podizanje {
+    padding-top: 5px;
+  }
+  .flexGrid {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .flexGrid li {
+    padding: 15px 30px;
+  }
+  .flexGrid li a {
+    color: white;
+  }
+
+  .roleteGrid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .roleteGridChild {
+    flex: 1;
+    text-align: center;
+    max-height: 40px;
+  }

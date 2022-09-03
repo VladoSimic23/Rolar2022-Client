@@ -1,0 +1,44 @@
+.odaberiProizvod {
+  text-align: center;
+  line-height: 1.7;
+  border-bottom: 3px solid #8892b0;
+  padding: 15px 0 45px 0;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ul {
+  margin-top: 30px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.bgRed {
+  background: #8892b0;
+  color: #64ffda;
+}
+
+.bgNone {
+  background: none;
+}
+/*# sourceMappingURL=OdabirProizvoda.module.css.map */

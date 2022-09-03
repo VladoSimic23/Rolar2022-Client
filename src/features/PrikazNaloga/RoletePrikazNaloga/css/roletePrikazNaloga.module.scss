@@ -1,0 +1,22 @@
+.roleteGrid {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .roleteGridChild {
+    flex: 1;
+    text-align: center;
+    max-height: 40px;
+  }
+  .prikazRolete {
+    background: rgb(255, 253, 241);
+    padding: 30px;
+    
+    color: white;
+    background: #7788b0;
+    text-align: center;
+    h4 {
+      margin: 0 !important;
+      padding: 30px 0;
+    }
+  }

@@ -1,0 +1,20 @@
+.prikazKomariceR50 {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    h4 {
+      margin: 0;
+      padding: 30px;
+    }
+  }
+
+  .komariceR50Grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .komariceR50Child {
+    flex: 1;
+    text-align: center;
+    max-height: 40px;
+  }

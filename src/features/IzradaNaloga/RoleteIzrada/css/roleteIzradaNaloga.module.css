@@ -1,0 +1,140 @@
+@charset "UTF-8";
+.odabirUređivanje {
+  max-width: 530px;
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.odabirUređivanje2 {
+  text-align: center;
+  padding: 40px 30px;
+  -webkit-animation: fadeLeft 0.5s;
+          animation: fadeLeft 0.5s;
+}
+
+@-webkit-keyframes fadeLeft {
+  from {
+    margin-left: -150px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    margin-left: -150px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.flexInput {
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flexInput2 {
+  max-width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.flexInput3 {
+  max-width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.flexForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 60px;
+}
+
+.rolWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr;
+      grid-template-columns: 0.5fr 1fr 1fr;
+  margin-top: 40px;
+}
+
+.rolWrapper h4 {
+  margin-bottom: 30px;
+}
+
+.inptStyle {
+  max-width: 25px;
+}
+
+.podizanje {
+  padding-top: 5px;
+}
+
+.flexGrid {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.flexGrid li {
+  padding: 15px 30px;
+}
+
+.flexGrid li a {
+  color: white;
+}
+
+.roleteGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.roleteGridChild {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  max-height: 40px;
+}
+/*# sourceMappingURL=roleteIzradaNaloga.module.css.map */

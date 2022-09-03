@@ -1,0 +1,31 @@
+$darkBlue : #0a192f;
+$grey: #8892b0;
+$green: #64ffda;
+
+.odaberiProizvod {
+   text-align: center;
+   line-height: 1.7;
+   border-bottom: 3px solid $grey;
+   padding: 15px 0 45px 0;
+   animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+ul {
+    margin-top: 30px;
+    li {
+        cursor: pointer;
+    }
+}
+.bgRed {
+    background: $grey;
+    color: $green;
+}
+.bgNone {
+    background: none;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;AACD,AAAA,mBAAmB,CAAC;EAClB,IAAI,EAAE,CAAC;EACP,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;CACjB;;AACD,AAAA,uBAAuB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "standardPrikaznaloga.module.scss"
+    ],
+    "names": [],
+    "file": "standardPrikaznaloga.module.css"
+}

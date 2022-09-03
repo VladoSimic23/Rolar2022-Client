@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,iBAAiB;CACjC;;AACD,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B",
+    "sources": [
+        "kupac.module.scss"
+    ],
+    "names": [],
+    "file": "kupac.module.css"
+}

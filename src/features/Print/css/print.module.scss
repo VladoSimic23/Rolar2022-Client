@@ -1,0 +1,26 @@
+.print {
+    padding: 30px 15px;
+  }
+  
+  .kupacFlexPrint {
+    display: flex;
+    max-width: 300px;
+    border-bottom: 1px solid black;
+  }
+  .kupacParent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .kupacParent h5 {
+    margin: 10px 0;
+    text-align: right;
+
+  }
+  .flexM2 {
+    display: flex;
+    justify-content: space-around;
+    h4 {
+      padding: 30px;
+      margin: 0;
+    }
+  }
