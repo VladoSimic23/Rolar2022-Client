@@ -1,4 +1,4 @@
-export const baseUrl = "https://rolar-server.herokuapp.com/";
+export const baseUrl = "https://rolar-server.herokuapp.com";
 export const roleteDbUrl = `${baseUrl}/novaRoleta`;
 export const ukloniRoletu = `${baseUrl}/novaRoleta/delete`;
 export const fixMrezeR50 = `${baseUrl}/novaMreza`;
